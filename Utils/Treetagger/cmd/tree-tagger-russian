@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Set these paths appropriately
+
+BIN="/home/fante/Dropbox/Jupyter/Treetagger/bin"
+CMD="/home/fante/Dropbox/Jupyter/Treetagger/cmd"
+LIB="/home/fante/Dropbox/Jupyter/Treetagger/lib"
+
+OPTIONS="-token -lemma -sgml"
+
+TOKENIZER=${CMD}/utf8-tokenize.perl
+TAGGER=${BIN}/tree-tagger
+PARFILE=${LIB}/russian.par
+
+# do tokenization
+$TOKENIZER $* |
+$TAGGER $OPTIONS $PARFILE
