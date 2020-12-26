@@ -1,4 +1,4 @@
-# twitter_topic_detection
+# Twitter Topic Detection
 Python scripts performing emerging topic detection in Twitter.
 
 ## Summary
