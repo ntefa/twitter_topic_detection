@@ -16,6 +16,6 @@ The procedure, can be summarized in the following steps:
 
 4 - Create a graph which links the extracted emerging terms to their relative co-occurrent terms;
 
-5 - Retrieve topics from graph applyingDepth First Search(DFS).
+5 - Retrieve topics from graph applying Depth First Search(DFS).
 
 A more accurate description of the functions implemented, their own objective, inputs/outputs, as well as results and math behind, can be found in the "An_Intelligent_Topic_tracking_System_in_Python__The___Covid_19___case.pdf" file.
